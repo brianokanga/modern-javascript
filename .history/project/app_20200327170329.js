@@ -57,7 +57,7 @@ console.log(person);
 
 numbers = [1,2,3,4,];
 numbers.push(5);
-console.log(typeof numbers);
+console.log(numbers);
 
 //DATA TYPES- two types
 // primitive data types Data is stored in the exact location its accessed from, stored on the stack

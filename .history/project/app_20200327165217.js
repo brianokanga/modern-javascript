@@ -57,19 +57,11 @@ console.log(person);
 
 numbers = [1,2,3,4,];
 numbers.push(5);
-console.log(typeof numbers);
+console.log(numbers);
 
 //DATA TYPES- two types
 // primitive data types Data is stored in the exact location its accessed from, stored on the stack
-//Primitive data types
-// numbers, strings, boolean, null, undefined, symbols(es6)
-// all variables are undefined by default
-
-
-// Reference type the data(considered  objects) is stored on the heap,and accessed dynamically
-//Arrays. objects literals, FUnctions, Dates etc
-
-// there are technologies that can turn js into statically typed language eg Typescript, flow js
+// Reference type the data is stored on the heap,and accessed dynamically
 
 
 
