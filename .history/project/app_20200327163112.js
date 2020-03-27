@@ -53,10 +53,3 @@ person.name = 'Nicolette';
 person.age = 43;
 console.log(person);
 
-//also in array ,using const, you can still add to the array
-
-numbers = [1,2,3,4,];
-numbers.push(5);
-console.log(numbers);
-
-

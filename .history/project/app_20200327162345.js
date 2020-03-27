@@ -34,29 +34,3 @@ let firstName = 'john';   // Camel case
 let first_name = 'mike'; //underscore 
 let FirstName = 'Kare';  // Pascals case
 
-
-//CONST
-const Name = 'john';
-console.log(name);
-// can not reassign 
-//must assign a value
-
-
-//SPUaNNER TO THE WAX
-// in objects you can re assign the value 
-const person = {
-    name: 'john',
-    age: 30
-}
-
-person.name = 'Nicolette';
-person.age = 43;
-console.log(person);
-
-//also in array ,using const, you can still add to the array
-
-numbers = [1,2,3,4,];
-numbers.push(5);
-console.log(numbers);
-
-
