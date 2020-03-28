@@ -111,10 +111,9 @@ console.log(typeof val);
 console.log(val.toFixed(3)); 
 
 //type coation
-const val1 = String(4);
-const val2 = 7;   // javascript automatically converts 7 to a string
-const sum = Number(val1 + val2);
+const val1 = 4;
+const val2 = 7;
+const sum = val1 + val2;
 
-console.log(sum);
 console.log(typeof sum);
 

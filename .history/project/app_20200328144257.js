@@ -97,11 +97,9 @@ val = Number(true);
 val = Number(false);
 val = Number(null);
 val = Number('hello');
-val = Number([1,2,3]);
 
-val = parseInt('100');
-val = parseFloat('100.3');
- 
+
+
 
 
 //output
@@ -109,12 +107,4 @@ console.log(val);
 console.log(typeof val);
 //console.log(val.length);
 console.log(val.toFixed(3)); 
-
-//type coation
-const val1 = String(4);
-const val2 = 7;   // javascript automatically converts 7 to a string
-const sum = Number(val1 + val2);
-
-console.log(sum);
-console.log(typeof sum);
 
