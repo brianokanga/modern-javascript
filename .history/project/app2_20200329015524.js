@@ -54,47 +54,11 @@ val = numbers.length;
  numbers[5] = 100;
 //find index of a value
 val = numbers.indexOf(76);
-// //MUTATING ARRAYS
-// //Add on to end
-// numbers.push(250);
-// //add on to front
-// numbers.unshift(345);
-// //take off from back 
-// numbers.pop();
-// //take off from the front
-// numbers.shift();
-// //splice out values
-// numbers.splice(1,4);
-// //reverse
-// numbers.reverse();
-
-//concatenate array
-// val = numbers.concat(numbers2);
-
-// //sorting arrays
-// val = fruit.sort();
-// val = numbers.sort();
-
-// //use the compare function
-
-// //reverse sort
-// val = numbers.sort(function(x,y){
-//     return y-x;
-// });
-
-//find
-function under50(num){
-    return num < 50;
-};
-
-function over50(num){
-    return num > 50;
-};
-
-val = numbers.find(under50);
-val = numbers.find(over50);
-
-
+//MUTATING ARRAYS
+//Add on to end
+numbers.push(250);
+//add on to front
+numbers.unshift(345);
 
 
 console.log(numbers);

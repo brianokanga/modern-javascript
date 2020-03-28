@@ -84,16 +84,10 @@ val = numbers.indexOf(76);
 
 //find
 function under50(num){
-    return num < 50;
-};
-
-function over50(num){
     return num > 50;
 };
 
 val = numbers.find(under50);
-val = numbers.find(over50);
-
 
 
 

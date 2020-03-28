@@ -41,6 +41,7 @@ const numbers2 = new Array(32,44,66,45,87,55,33,43);
 const fruit = ['Passion','Mango','Banana','Orange','Pear'];
 const mixed = [22, 'Hello', true, undefined,null, new Date(), {a:1,b:1}];
 
+
 let val;
 //Get Array Length
 val = numbers.length;
@@ -50,51 +51,6 @@ val = numbers.length;
 
  //Get single value
  val = numbers[5];
- //insert into array
- numbers[5] = 100;
-//find index of a value
-val = numbers.indexOf(76);
-// //MUTATING ARRAYS
-// //Add on to end
-// numbers.push(250);
-// //add on to front
-// numbers.unshift(345);
-// //take off from back 
-// numbers.pop();
-// //take off from the front
-// numbers.shift();
-// //splice out values
-// numbers.splice(1,4);
-// //reverse
-// numbers.reverse();
-
-//concatenate array
-// val = numbers.concat(numbers2);
-
-// //sorting arrays
-// val = fruit.sort();
-// val = numbers.sort();
-
-// //use the compare function
-
-// //reverse sort
-// val = numbers.sort(function(x,y){
-//     return y-x;
-// });
-
-//find
-function under50(num){
-    return num < 50;
-};
-
-function over50(num){
-    return num > 50;
-};
-
-val = numbers.find(under50);
-val = numbers.find(over50);
-
-
 
 
 console.log(numbers);

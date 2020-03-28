@@ -69,30 +69,16 @@ val = numbers.indexOf(76);
 // numbers.reverse();
 
 //concatenate array
-// val = numbers.concat(numbers2);
+val = numbers.concat(numbers2);
 
-// //sorting arrays
-// val = fruit.sort();
-// val = numbers.sort();
+//sorting arrays
+val = fruit.sort();
+val = numbers.sort();
 
-// //use the compare function
-
-// //reverse sort
-// val = numbers.sort(function(x,y){
-//     return y-x;
-// });
-
-//find
-function under50(num){
-    return num < 50;
-};
-
-function over50(num){
-    return num > 50;
-};
-
-val = numbers.find(under50);
-val = numbers.find(over50);
+//use the compare function
+val = numbers.sort(function(x,y){
+    return x-y;
+});
 
 
 
