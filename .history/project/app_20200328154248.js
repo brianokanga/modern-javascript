@@ -146,12 +146,10 @@ val = Math.abs(-4);     //from the negative, gives you the positive
 val = Math.pow(8, 2);
 val = Math.min(3,43,54,-554,4,3,33,3);
 val = Math.max(3,43,54,-554,4,3,33,3);
-val = Math.random();
-
-val = Math.random() * 20 + 1; //andom numbers between 0-19,add 1,get 20
 
 
-val = Math.floor(Math.random() * 20 + 1);
+
+
 
 
 

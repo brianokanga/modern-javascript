@@ -151,7 +151,7 @@ val = Math.random();
 val = Math.random() * 20 + 1; //andom numbers between 0-19,add 1,get 20
 
 
-val = Math.floor(Math.random() * 20 + 1);
+
 
 
 

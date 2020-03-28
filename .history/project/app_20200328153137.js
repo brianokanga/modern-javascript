@@ -139,19 +139,6 @@ val = Math.PI;
 val = Math.E;
 val = Math.round(2.8);
 val = Math.round(2.3);   //round off to the nearest whole number
-val = Math.ceil(2.3);    // specify that you want to round off up
-val = Math.floor(2.8);    // specify that you want to round of down
-val = Math.sqrt(64);
-val = Math.abs(-4);     //from the negative, gives you the positive
-val = Math.pow(8, 2);
-val = Math.min(3,43,54,-554,4,3,33,3);
-val = Math.max(3,43,54,-554,4,3,33,3);
-val = Math.random();
-
-val = Math.random() * 20 + 1; //andom numbers between 0-19,add 1,get 20
-
-
-val = Math.floor(Math.random() * 20 + 1);
 
 
 
