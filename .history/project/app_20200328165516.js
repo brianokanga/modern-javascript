@@ -161,7 +161,6 @@ const middleName = 'Williamlawssons';
 const lastName = 'Johnson';
 const age = 36;
 const str = 'Hello there my name is John '
-const tags = 'web design, web development,programming '
 let value;
 
 //concatnation
@@ -211,13 +210,10 @@ value = middleName.slice(-7);
 
 //split
 value = str.split(' ');
-value = tags.split(',');   //use case result from a form on a site
  
-//replace
-value = str.replace('John', 'Nicolette');
 
-//includes
-value = str.includes('Hello');
+
+
 
 
 

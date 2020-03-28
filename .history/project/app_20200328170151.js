@@ -216,8 +216,7 @@ value = tags.split(',');   //use case result from a form on a site
 //replace
 value = str.replace('John', 'Nicolette');
 
-//includes
-value = str.includes('Hello');
+
 
 
 

@@ -160,8 +160,6 @@ console.log(val);
 const middleName = 'Williamlawssons';
 const lastName = 'Johnson';
 const age = 36;
-const str = 'Hello there my name is John '
-const tags = 'web design, web development,programming '
 let value;
 
 //concatnation
@@ -188,36 +186,8 @@ value = middleName.toLowerCase();
 value = middleName.toUpperCase();
 
 //indexes
-value = middleName[7];
+value = middleName[0];
 
-//indexOf
-value = lastName.indexOf('s');  //if the character missing you get -1
-
-//lastIndexOf
-value = middleName.lastIndexOf('l');
-
-//charAt
-value = middleName.charAt('3');  // opp of indexOf
-
-//get last char
-value = lastName.charAt(lastName.length -1);
-
-//substrings
-value = middleName.substring(0, 5);
-
-//slice
-value = middleName.slice(0, 5);
-value = middleName.slice(-7);
-
-//split
-value = str.split(' ');
-value = tags.split(',');   //use case result from a form on a site
- 
-//replace
-value = str.replace('John', 'Nicolette');
-
-//includes
-value = str.includes('Hello');
 
 
 

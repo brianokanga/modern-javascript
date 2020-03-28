@@ -211,13 +211,12 @@ value = middleName.slice(-7);
 
 //split
 value = str.split(' ');
-value = tags.split(',');   //use case result from a form on a site
+value = tags.split(',');   //usecase result from a form on a site
  
 //replace
-value = str.replace('John', 'Nicolette');
+value = str.replace('john', 'Nicolette');
 
-//includes
-value = str.includes('Hello');
+
 
 
 
