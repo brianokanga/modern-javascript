@@ -20,7 +20,7 @@ console.log(name);
 name = "Dan Juma";
 console.log(name);
 
-// in a let
+// inia a let
 let greeting;
 greeting = 'Hello';
 console.log(greeting);
@@ -49,7 +49,7 @@ const person = {
     age: 30
 }
 
-person.name = 'Nicolette';
+person.name = 'Nicollette';
 person.age = 43;
 console.log(person);
 
@@ -110,7 +110,7 @@ console.log(typeof val);
 //console.log(val.length);
 console.log(val.toFixed(3)); 
 
-//type coercion
+//type coation
 const val1 = String(4);
 const val2 = 7;   // javascript automatically converts 7 to a string
 const sum = Number(val1 + val2);
@@ -148,7 +148,7 @@ val = Math.min(3,43,54,-554,4,3,33,3);
 val = Math.max(3,43,54,-554,4,3,33,3);
 val = Math.random();
 
-val = Math.random() * 20 + 1; //random numbers between 0-19,add 1,get 20
+val = Math.random() * 20 + 1; //andom numbers between 0-19,add 1,get 20
 
 
 val = Math.floor(Math.random() * 20 + 1);
@@ -164,7 +164,7 @@ const str = 'Hello there my name is John '
 const tags = 'web design, web development,programming '
 let value;
 
-//concatenation
+//concatnation
 name = middleName + ' ' + lastName;
 
 //append

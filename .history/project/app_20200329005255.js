@@ -20,7 +20,7 @@ console.log(name);
 name = "Dan Juma";
 console.log(name);
 
-// in a let
+// inia a let
 let greeting;
 greeting = 'Hello';
 console.log(greeting);
@@ -110,7 +110,7 @@ console.log(typeof val);
 //console.log(val.length);
 console.log(val.toFixed(3)); 
 
-//type coercion
+//type coation
 const val1 = String(4);
 const val2 = 7;   // javascript automatically converts 7 to a string
 const sum = Number(val1 + val2);
@@ -164,7 +164,7 @@ const str = 'Hello there my name is John '
 const tags = 'web design, web development,programming '
 let value;
 
-//concatenation
+//concatnation
 name = middleName + ' ' + lastName;
 
 //append
