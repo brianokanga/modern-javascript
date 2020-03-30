@@ -75,7 +75,7 @@ if (id === 100)
     console.log('Incorrect');
     
 //SWITCHES
-const color = 'red';
+const color = 'res';
 
 switch(color){
     case 'red':
