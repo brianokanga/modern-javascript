@@ -153,22 +153,8 @@ values = String(today);       //object to string
 values = birthday
 
 values = today.getMonth();    // the month are zero based
-values = today.getDate();
-values = today.getDay();
-values = today.getUTCFullYear();
-values = today.getHours();
-values = today.getMinutes();
-values = today.getSeconds();
-values = today.getMilliseconds();
-values = today.getTime();
 
 
-birthday.setMonth(2);
-birthday.setDate(12);
-birthday.setFullYear(1865);
-birthday.setHours(3);
-birthday.getMinutes(33);
-birthday.getSeconds(44);
 
 
-console.log(birthday);
+console.log(values);

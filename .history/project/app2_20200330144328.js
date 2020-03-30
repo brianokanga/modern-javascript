@@ -144,31 +144,9 @@ for(let i = 0; i < people.length; i++){
 let values;
 
 const today = new Date();
-let birthday = new Date('9-10-1981 11:34:00');
-birthday = new Date('October 10 2020 11:34:00');
-
-
 values = today.toString();    //object to string
 values = String(today);       //object to string
-values = birthday
-
-values = today.getMonth();    // the month are zero based
-values = today.getDate();
-values = today.getDay();
-values = today.getUTCFullYear();
-values = today.getHours();
-values = today.getMinutes();
-values = today.getSeconds();
-values = today.getMilliseconds();
-values = today.getTime();
 
 
-birthday.setMonth(2);
-birthday.setDate(12);
-birthday.setFullYear(1865);
-birthday.setHours(3);
-birthday.getMinutes(33);
-birthday.getSeconds(44);
 
-
-console.log(birthday);
+console.log(typeof values);

@@ -166,9 +166,8 @@ values = today.getTime();
 birthday.setMonth(2);
 birthday.setDate(12);
 birthday.setFullYear(1865);
-birthday.setHours(3);
-birthday.getMinutes(33);
-birthday.getSeconds(44);
+
+
 
 
 console.log(birthday);
