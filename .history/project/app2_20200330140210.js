@@ -101,42 +101,10 @@ console.log(val);
 
 //OBJECT LITERALS
 const person = {
-    firstName: 'Steve',
-    lastName: 'Smith',
-    age: 40,
-    email: 'smith@home.com',
-    hobbies: ['music','sports'],
-    address: {
-        city: 'Nairobi',
-        hood: 'Westlands'
-    },
-    getBirthYear: function(){
-        return 2020- this.age;
-    }
+    firstName: 'Steve'
 }
 
 let value = person;
 
-//Get a specific value
-value = person.firstName;
-value = person['firstName'];  // you can also do it this way
-value = person.lastName;
-value = person.age;
-value = person.hobbies[1];
-value = person.address.hood;
-value = person.address['city'];
-value = person.getBirthYear();
-
 console.log(value);
-
-
-//Arrays of objects
-const people = [
-    {name: 'Mike', age: 30},
-    {name: 'Smith', age: 23 },
-    {name: 'Nicollette', age: 40}
-];
-
-for(let i = 0; i < people.length; i++){
-    console.log(people[i].name);
-}
+         

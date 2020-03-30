@@ -133,8 +133,7 @@ console.log(value);
 //Arrays of objects
 const people = [
     {name: 'Mike', age: 30},
-    {name: 'Smith', age: 23 },
-    {name: 'Nicollette', age: 40}
+    {name: 'Smith', age: 23 }
 ];
 
 for(let i = 0; i < people.length; i++){
