@@ -113,7 +113,7 @@ liOdd.forEach(function(li, index){
 });
 
 for (let i= 0; i < liEven.length; i++) {
-    liEven[i].style.background = 'red';
+    liEven[i].style.background = '#f4f4f4';
     
 }
 

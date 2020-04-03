@@ -105,16 +105,9 @@ items.forEach(function(item, index){
     item.textContent = `${index} Todos`;
 });
 
-const liOdd = document.querySelectorAll('li:nth-child(odd)');
-const liEven = document.querySelectorAll('li:nth-child(even)');
+const loOdd = document.querySelectorAll('li:nth-child(odd)');
+const loEven = document.querySelectorAll('li:nth-child(even)');
 
-liOdd.forEach(function(li, index){
-    li.style.background = '#ccc';
-});
 
-for (let i= 0; i < liEven.length; i++) {
-    liEven[i].style.background = 'red';
-    
-}
 
 console.log(items);

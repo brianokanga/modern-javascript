@@ -112,9 +112,4 @@ liOdd.forEach(function(li, index){
     li.style.background = '#ccc';
 });
 
-for (let i= 0; i < liEven.length; i++) {
-    liEven[i].style.background = 'red';
-    
-}
-
 console.log(items);
