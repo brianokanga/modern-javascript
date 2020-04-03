@@ -132,7 +132,7 @@ val = list;
 val = list.childNodes;
 val = list.childNodes[0];
 val = list.childNodes[0].nodeName;
-val = list.childNodes[1].nodeType;
+val = list.childNodes[0].nodeType;
 
 // 1 - Element
 // 2 - Attribute (deprecated)
@@ -142,39 +142,8 @@ val = list.childNodes[1].nodeType;
 // 10 - Doctype
 
 
-// Get children elements nodes  more use case for children > child nodes
-val = list.children;
-val = list.children[0];
-val = list.children[1].textContent = 'todo';
 
-//Get children of children
-list.children[3].children[0].id = 'test-link';
-val = list.children[3].children[0];
-
-val = list.firstChild;
-val = list.firstElementChild; 
-
-val = list.lastChild;
-val = list.lastElementChild; 
-
-//count child elements
-val = list.childElementCount;
-
-//get parent node
-val = listItem.parentNode;
-val = listItem.parentElement;
-val = listItem.parentElement.parentElement;   //you can traverse up/down
-
-
-
-//get next sibling
-val = listItem.nextSibling;
-val = listItem.nextElementSibling;
-val = listItem.nextElementSibling.nextElementSibling;
-
-//get previous sibling
-val = listItem.previousSibling;
-val = listItem.previousElementSibling;
-val = listItem.nextElementSibling.previousElementSibling;
+// Get children elements nodes
+//val = list.children;
 
 console.log(val);

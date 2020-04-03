@@ -148,33 +148,8 @@ val = list.children[0];
 val = list.children[1].textContent = 'todo';
 
 //Get children of children
-list.children[3].children[0].id = 'test-link';
 val = list.children[3].children[0];
 
-val = list.firstChild;
-val = list.firstElementChild; 
 
-val = list.lastChild;
-val = list.lastElementChild; 
-
-//count child elements
-val = list.childElementCount;
-
-//get parent node
-val = listItem.parentNode;
-val = listItem.parentElement;
-val = listItem.parentElement.parentElement;   //you can traverse up/down
-
-
-
-//get next sibling
-val = listItem.nextSibling;
-val = listItem.nextElementSibling;
-val = listItem.nextElementSibling.nextElementSibling;
-
-//get previous sibling
-val = listItem.previousSibling;
-val = listItem.previousElementSibling;
-val = listItem.nextElementSibling.previousElementSibling;
 
 console.log(val);

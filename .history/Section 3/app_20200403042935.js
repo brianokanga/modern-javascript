@@ -174,7 +174,7 @@ val = listItem.nextElementSibling.nextElementSibling;
 
 //get previous sibling
 val = listItem.previousSibling;
-val = listItem.previousElementSibling;
-val = listItem.nextElementSibling.previousElementSibling;
+// val = listItem.nextElementSibling;
+// val = listItem.nextElementSibling.nextElementSibling;
 
 console.log(val);

@@ -163,18 +163,8 @@ val = list.childElementCount;
 //get parent node
 val = listItem.parentNode;
 val = listItem.parentElement;
-val = listItem.parentElement.parentElement;   //you can traverse up/down
+val = listItem.parentElement.parentElement;
 
 
-
-//get next sibling
-val = listItem.nextSibling;
-val = listItem.nextElementSibling;
-val = listItem.nextElementSibling.nextElementSibling;
-
-//get previous sibling
-val = listItem.previousSibling;
-val = listItem.previousElementSibling;
-val = listItem.nextElementSibling.previousElementSibling;
 
 console.log(val);
