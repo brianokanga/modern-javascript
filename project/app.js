@@ -38,7 +38,7 @@ let FirstName = 'Kare';  // Pascals case
 //CONST
 const Name = 'john';
 console.log(name);
-// can not reassign 
+//can not reassign 
 //must assign a value
 
 

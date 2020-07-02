@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "prettier.jsxSingleQuote": true,
+    "workbench.settings.editor": "json",
+    "editor.renameOnType": true
+}
