@@ -1,9 +1,17 @@
 const http = require ('http');
+const url = require ('url');
 
 //SERVER
 const server = http.createServer ((req, res) => {
-  console.log (req);
-  res.end ('Hello from the server');
+  const pathName = req.url;
+  if (pathName === '/' || pathName === '/overview') {
+    res.end ('This is the OVERVIEW');
+  } else if (pathName === '/product') {
+    res.end ('This is the RODUCT');
+  } else {
+    res.writeHead (404);
+    res.end ('This is the RODUCT');
+  }
 });
 
 // listening to server
