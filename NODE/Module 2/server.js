@@ -20,6 +20,7 @@ const replaceTemplate = (temp, product) => {
   return output; //final modified markup
 };
 
+// Server
 const tempOverview = fs.readFileSync (
   `${__dirname}/templates/template-overview.html`,
   'utf-8'
@@ -37,24 +38,24 @@ const dataObj = JSON.parse (data);
 
 // no syncronous code here. its calle every time there is a request
 const server = http.createServer ((req, res) => {
-  const pathName = req.url;
+  const {query, pathname} = url.parse (req.url, true);
 
   // Overview
-  if (pathName === '/' || pathName === '/overview') {
+  if (pathname === '/' || pathname === '/overview') {
     res.writeHead (200, {'Content-type': 'text/html'});
+    const cardHtml = dataObj.map (el => replaceTemplate (tempCard, el));
+    const output = tempOverview.replace ('{%PRODUCT-CARDS%}', cardHtml);
+    res.end (output);
 
-    try {
-      const cardHtml = dataObj.map (el => replaceTemplate (tempCard, el));
-      const output = tempOverview.replace ('{%PRODUCT-CARDS%}', cardHtml);
-      res.end (output);
-    } catch (err) {
-      console.log (err);
-    }
-  } else if (pathName === '/product') {
-    res.end ('This is the RODUCT');
+    //  Product
+  } else if (pathname === '/product') {
+    res.writeHead (200, {'Content-type': 'text/html'});
+    const product = dataObj[query.id];
+    const output = replaceTemplate (tempProduct, product);
+    res.end (output);
 
     // API
-  } else if (pathName === '/api') {
+  } else if (pathname === '/api') {
     res.writeHead (200, {'Content-type': 'application/json'});
     res.end (data);
 
