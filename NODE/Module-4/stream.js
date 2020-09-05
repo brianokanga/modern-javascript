@@ -23,7 +23,7 @@ server.on ('request', (req, res) => {
   //   });
 
   //solution 3: Streams  using PIPE
-  const readable = fs.createReadStream ('tessst-file.txt');
+  const readable = fs.createReadStream ('test-file.txt');
   //   readableSource.pipe (writableDestination);
   readable.pipe (res);
 });
